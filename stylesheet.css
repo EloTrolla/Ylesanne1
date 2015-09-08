@@ -1,14 +1,44 @@
 
 img {
-    padding-top: 55px;
-    padding-right: 60px;
-    padding-bottom: 25px;
+    margin-top: 60px;
+    margin-right: 120px;
+    border: 1px solid black;
+    border-radius: 22px;
+    padding: 1px;
     float: right;
+    width: 300px;
 }
+
 p {
-    padding-top: 55px;
+    padding-top: 80px;
     padding-bottom: 25px;
     padding-left: 120px;
     float: left;
     font-size: 70px;
+}
+table {
+    clear: both;
+    float: right;
+    margin-right: 165px;
+    border-collapse: collapse;
+    height: 100px;
+    width: 120px;
+}
+table td, table th {
+    border: 2px solid black;
+    padding: 10px;
+}
+table tr:first-child th {
+    border-top: 0;
+}
+table tr:last-child td {
+    border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+    border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+    border-right: 0;
 }
