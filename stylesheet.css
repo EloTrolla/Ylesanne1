@@ -1,4 +1,3 @@
-
 img {
     margin-top: 60px;
     margin-right: 120px;
@@ -8,18 +7,17 @@ img {
     float: right;
     width: 300px;
 }
-
 p {
     padding-top: 80px;
-    padding-bottom: 25px;
     padding-left: 120px;
     float: left;
     font-size: 70px;
 }
+
 table {
     clear: both;
     float: right;
-    margin-right: 165px;
+    margin-right: 145px;
     border-collapse: collapse;
     height: 100px;
     width: 120px;
@@ -41,4 +39,22 @@ table tr th:first-child {
 table tr td:last-child,
 table tr th:last-child {
     border-right: 0;
+}
+.nimi {
+  float: left;
+    padding: 0 0 0 8%;
+    width: 100%;
+    position: relative;
+
+}
+*.tutvustus {
+    float: left;
+    width: 45%;
+    display: inline-block;
+}
+.meow {
+    width: 1270px;
+    height: 20px;
+    margin: 7px;
+    float: left;
 }
