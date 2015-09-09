@@ -2,7 +2,7 @@ body {
     background-color: #FFFF99
 }
 img {
-    margin-top: 60px;
+    margin-top: 10px;
     margin-right: 120px;
     border: 1px solid black;
     border-radius: 22px;
@@ -11,6 +11,7 @@ img {
     width: 300px;
 }
 p {
+    text-transform: uppercase;
     padding-top: 80px;
     padding-left: 120px;
     float: left;
@@ -54,6 +55,7 @@ table tr th:last-child {
     float: left;
     width: 45%;
     display: inline-block;
+    font-family: Georgia, serif;
 }
 .meow {
     width: 1270px;
