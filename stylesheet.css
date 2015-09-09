@@ -63,3 +63,10 @@ table tr th:last-child {
     margin: 7px;
     float: left;
 }
+a:hover {
+    color: darkred;
+    font-weight: bold;
+}
+a:visited {
+    color: maroon;
+}
