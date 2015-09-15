@@ -8,7 +8,6 @@ body {
 }
 .nimi {
     width: 100%;
-    /**position: relative;**/
     margin-top: 125px;
     margin-left: 55px;
     margin-right: auto;
@@ -61,12 +60,6 @@ ul {
     font-family: Georgia, serif;
     font-size: 17px;
 }
-/**.meow {
-    width: 1270px;
-    height: 20px;
-    margin: 7px;
-    float: left;
-}**/
 a:hover {
     color: darkred;
     font-weight: bold;
