@@ -1,8 +1,20 @@
 body {
     background-color: #FFFF99
 }
+.image {
+    float:right;
+    margin-top: 100px;
+    margin-right: 40px;
+}
+.nimi {
+    width: 100%;
+    /**position: relative;**/
+    margin-top: 125px;
+    margin-left: 55px;
+    margin-right: auto;
+}
 img {
-    margin-top: 10px;
+    margin-top: 1px;
     margin-right: 120px;
     border: 1px solid black;
     border-radius: 22px;
@@ -10,20 +22,14 @@ img {
     float: right;
     width: 300px;
 }
-/**p {;
-    padding-top: 80px;
-    padding-left: 120px;
-    float: left;
-    font-size: 70px;
-}
-**/
 table {
     clear: both;
-    float: right;
-    margin-right: 145px;
     border-collapse: collapse;
     height: 100px;
     width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
 }
 table td, table th {
     border: 2px solid black;
@@ -43,13 +49,6 @@ table tr td:last-child,
 table tr th:last-child {
     border-right: 0;
 }
-.nimi {
-  float: left;
-    width: 100%;
-    position: relative;
-    margin-top: 167px;
-    padding-left: 95px
-}
 .elo {
     font-size: 70px;
 }
@@ -57,17 +56,17 @@ table tr th:last-child {
     padding-top: 5px;
     font-size: 30px;
 }
-*.tutvustus {
+ul {
     float: left;
     font-family: Georgia, serif;
-    font-size: 20px;
+    font-size: 17px;
 }
-.meow {
+/**.meow {
     width: 1270px;
     height: 20px;
     margin: 7px;
     float: left;
-}
+}**/
 a:hover {
     color: darkred;
     font-weight: bold;
