@@ -27,8 +27,9 @@ table {
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 450px;
+    margin-top: 180px;
     width: 90%;
+    font-size: 20px;
 }
 table td, table th {
     border: 2px solid black;
@@ -66,4 +67,19 @@ a:hover {
 }
 a:visited {
     color: maroon;
+}
+.ordered1 {
+    float: left;
+    margin-right: auto;
+    margin-left: 265px;
+    font-size: 23px;
+}
+.ordered2 {
+    float: right;
+    margin-right: 265px;
+    margin-left: auto;
+    font-size: 23px;
+}
+hr {
+    border-color: lightcoral;
 }
