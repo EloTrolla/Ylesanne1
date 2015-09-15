@@ -1,8 +1,9 @@
 body {
-    background-color: #FFFF99
+    background-image: url("http://goo.gl/6JPAec");
+    background-color: #FFFF99;
 }
 .image {
-    float:right;
+    float: right;
     margin-top: 100px;
     margin-right: 40px;
 }
