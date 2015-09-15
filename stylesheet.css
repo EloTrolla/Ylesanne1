@@ -10,14 +10,13 @@ img {
     float: right;
     width: 300px;
 }
-p {
-    text-transform: uppercase;
+/**p {;
     padding-top: 80px;
     padding-left: 120px;
     float: left;
     font-size: 70px;
 }
-
+**/
 table {
     clear: both;
     float: right;
@@ -46,16 +45,22 @@ table tr th:last-child {
 }
 .nimi {
   float: left;
-    padding: 0 0 0 8%;
     width: 100%;
     position: relative;
-
+    margin-top: 167px;
+    padding-left: 95px
+}
+.elo {
+    font-size: 70px;
+}
+.tekst {
+    padding-top: 5px;
+    font-size: 30px;
 }
 *.tutvustus {
     float: left;
-    width: 45%;
-    display: inline-block;
     font-family: Georgia, serif;
+    font-size: 20px;
 }
 .meow {
     width: 1270px;
